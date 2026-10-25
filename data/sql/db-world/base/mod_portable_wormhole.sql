@@ -1,6 +1,6 @@
 -- mod-portable-wormhole
 -- 38059 Tragbares Wurmloch (36 Plaetze, Client-/Protokoll-Maximum)
--- 21924 Muster: Tragbares Wurmloch (Schneiderei 80, wiederverwendbar)
+-- 21924 Muster: Tragbares Wurmloch (Schneiderei 125, wiederverwendbar)
 --
 -- Der 3.3.5a-Client holt Symbol und Taschen-Typ aus seiner eigenen Item.dbc.
 -- Neue IDs (z. B. 90000) stehen dort nicht und erscheinen als "?". Deshalb
@@ -22,15 +22,15 @@ VALUES
      2, '', 8, ''),
     (21924, 9, 2, 'Pattern: Portable Wormhole', 1102, 3, 1, 100000, 0,
      0, -1, -1, 20, 0,
-     197, 80, 1, 1, 0,
+     197, 125, 1, 1, 0,
      36177, 0, 0, -1, -1,
-     1, 'Use: Sews 2 Bolt of Silk Cloth, 5 Fine Thread and 1 Light Leather into a Portable Wormhole. The pattern is not consumed.', -1, 'item_pattern_portable_wormhole');
+     1, 'Use: Sews 10 Bolt of Silk Cloth, 6 Heavy Leather, 4 Silken Thread and 2 Iridescent Pearl into a Portable Wormhole. The pattern is not consumed.', -1, 'item_pattern_portable_wormhole');
 
 DELETE FROM `item_template_locale` WHERE `ID` IN (90000, 90001, 38059, 21924) AND `locale` = 'deDE';
 INSERT INTO `item_template_locale` (`ID`, `locale`, `Name`, `Description`) VALUES
     (38059, 'deDE', 'Tragbares Wurmloch', ''),
     (21924, 'deDE', 'Muster: Tragbares Wurmloch',
-     'Benutzen: Näht 2 Seidenstoffballen, 5 Feinen Faden und 1 Leichtes Leder zu einem Tragbaren Wurmloch. Das Muster wird nicht verbraucht.');
+     'Benutzen: Näht 10 Seidenstoffballen, 6 Schweres Leder, 4 Seidenfaden und 2 Schillernde Perlen zu einem Tragbaren Wurmloch. Das Muster wird nicht verbraucht.');
 
 -- Haris Pilton (Shattrath) verkauft die Tasche fuer 60.000 Gold
 DELETE FROM `npc_vendor` WHERE `item` IN (90000, 38059);

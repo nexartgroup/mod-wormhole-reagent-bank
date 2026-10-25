@@ -24,7 +24,7 @@ namespace
     constexpr uint32 ITEM_PORTABLE_WORMHOLE = 38059;
 
     constexpr uint32 SKILL_TAILORING_ID     = 197;
-    constexpr uint32 REQUIRED_SKILL_VALUE   = 80;
+    constexpr uint32 REQUIRED_SKILL_VALUE   = 125;
 
     struct Reagent
     {
@@ -35,9 +35,10 @@ namespace
 
     constexpr Reagent REAGENTS[] =
     {
-        { 4305, 2, "Seidenstoffballen" },
-        { 2321, 5, "Feiner Faden"      },
-        { 2318, 1, "Leichtes Leder"    },
+        { 4305, 10, "Seidenstoffballen" },
+        { 4234,  6, "Schweres Leder"    },
+        { 4291,  4, "Seidenfaden"       },
+        { 5500,  2, "Schillernde Perle" },
     };
 }
 

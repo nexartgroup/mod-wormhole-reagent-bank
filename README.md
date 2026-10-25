@@ -27,8 +27,9 @@ Tasche **Tragbares Wurmloch** (Item 38059, 36 Plätze) und **Muster: Tragbares W
 
 - Haris Pilton (Shattrath) verkauft die Tasche für 60.000 Gold.
 - Alle Schneiderei-Lehrer verkaufen das Muster (10 Gold) und bekommen dafür das Händler-Flag.
-- Muster benutzen (Schneiderei ≥ 80): 2x Seidenstoffballen, 5x Feiner Faden,
-  1x Leichtes Leder werden zu einem Tragbaren Wurmloch. Das Muster bleibt erhalten.
+- Muster benutzen (Schneiderei ≥ 125): 10x Seidenstoffballen, 6x Schweres Leder,
+  4x Seidenfaden und 2x Schillernde Perle werden zu einem Tragbaren Wurmloch
+  (Material aus dem Bereich Stufe 20 bis 30). Das Muster bleibt erhalten.
   Fehlendes Material wird aus der Reagenzienbank genommen.
 
 Grenzen:
