@@ -1,0 +1,24 @@
+[worldserver]
+
+#
+#    ReagentBankCrafting.Enable
+#        Description: Fehlende Reagenzien beim Herstellen automatisch aus der
+#                     Reagenzienbank (mod-reagent-bank-account) nehmen.
+#        Default:     1
+#
+ReagentBankCrafting.Enable = 1
+
+#
+#    ReagentBankCrafting.ProfessionsOnly
+#        Description: 1 = nur Berufszauber (inkl. Kochen, Erste Hilfe).
+#                     0 = alle Zauber mit Reagenzien.
+#        Default:     1
+#
+ReagentBankCrafting.ProfessionsOnly = 1
+
+#
+#    ReagentBankCrafting.Announce
+#        Description: Chatmeldung, wenn etwas aus der Bank entnommen wurde.
+#        Default:     1
+#
+ReagentBankCrafting.Announce = 1
